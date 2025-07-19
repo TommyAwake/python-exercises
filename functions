@@ -1,1 +1,27 @@
+# def lesser_of_two_evens(x, y):
+#     if x % 2 == 0 and y % 2 == 0:
+#         return min(x, y)
+#     return max(x, y)
+# print(lesser_of_two_evens(2,4))
+# # проверка
+# print(lesser_of_two_evens(2,5))
 
+# def animal_crackers(text):
+#     words = text.split()
+#     return words[0][0].lower() == words[1][0].lower()
+# # проверка
+# print(animal_crackers('Levelheaded Llama'))
+# # проверка
+# print(animal_crackers('Crazy Kangaroo'))
+
+# def makes_twenty(n1,n2):
+#     return n1==20 or n2==20 or n1+n2==20
+# # проверка
+# print(makes_twenty(10,10))
+# # проверка
+# print(makes_twenty(2,3))
+
+# def old_macdonald(name):
+#     return f'{name[0:3].capitalize()}{name[3:].capitalize()}'
+# # проверка
+# print(old_macdonald('macdonald'))
