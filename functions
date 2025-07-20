@@ -25,3 +25,8 @@
 #     return f'{name[0:3].capitalize()}{name[3:].capitalize()}'
 # # проверка
 # print(old_macdonald('macdonald'))
+
+#def master_yoda(text):
+#    text = text.split()
+#    return " ".join(text[::-1])
+#print(master_yoda('I am home'))
