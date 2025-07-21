@@ -30,3 +30,69 @@
 #    text = text.split()
 #    return " ".join(text[::-1])
 #print(master_yoda('I am home'))
+
+# def almost_there(n):
+#     return 90<=n<=110 or 190<=n<=210
+# print(almost_there(104))
+# print(almost_there(150))
+# print(almost_there(209))
+
+# def has_33(nums):
+#     for i in range(len(nums)-1):
+#         if nums[i] == 3 and nums[i+1] == 3:
+#             return True
+#     return False
+
+# print(has_33([1, 3, 3]))
+# print(has_33([1, 3, 1, 3]))
+# has_33([3, 1, 3])
+
+# def paper_doll(text):
+#     for i in text:
+#         print(i*3, end = "")
+#     print()
+# def paper_doll(text):
+#     result = ''
+#     for char in text:
+#         result += char * 3
+#     return result
+# paper_doll('Hello')
+# paper_doll('Mississippi')
+
+# def blackjack(a,b,c):
+#     x = a+b+c
+#     if x <= 21:
+#         return x
+#     elif x > 21 and (11 in (a,b,c)):
+#         if x-10 <= 21:
+#             return x-10
+#         else:
+#             return 'BUST'
+#     else:
+#             return 'BUST'
+# print(blackjack(9,9,9))
+
+# def summer_69(arr):
+#     summ = 0
+#     add = True
+#     for i in range(len(arr)):
+#         if arr[i] == 6:
+#             add = False
+#         elif add:
+#             summ += arr[i]
+#         if arr[i] == 9:
+#             add = True
+#     return summ
+# print(summer_69([1, 3, 5]))
+# print(summer_69([4, 5, 6, 7, 8, 9]))
+# print(summer_69([2, 1, 6, 9, 11]))
+
+# def spy_game(nums):
+#     add = [0,0,7,'x']
+#     for i in nums:
+#         if i == add[0]:
+#             add.pop(0)
+#     return len(add) == 1
+# print(spy_game([1,2,4,0,0,7,5]))
+# print(spy_game([1,0,2,4,0,5,7]))
+# print(spy_game([1,7,2,0,4,5,0]))
